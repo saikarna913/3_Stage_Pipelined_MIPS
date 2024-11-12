@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../5_Stage_MIPS.srcs/sim_1/new/IF_tb.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/ALU.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/IFStage.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/adder.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/controller.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/dataMem.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/forwarding.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/mux.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/regFile.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/register.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/signExtend.v" \
+"../../../../5_Stage_MIPS.srcs/sim_1/new/testbench.v" \
+"../../../../5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

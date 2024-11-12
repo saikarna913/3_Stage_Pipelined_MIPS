@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'EXE_CMD' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:62]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'WB_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:66]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_R_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:67]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_W_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:68]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'reg1' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:81]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'writeDest' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:98]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'immediate' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:106]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'src2' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:120]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

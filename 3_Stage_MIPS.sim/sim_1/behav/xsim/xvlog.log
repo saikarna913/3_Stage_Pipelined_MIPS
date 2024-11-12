@@ -1,0 +1,37 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel_tb

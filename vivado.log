@@ -1,0 +1,860 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Nov 12 13:53:49 2024
+# Process ID: 19132
+# Current directory: C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21244 C:\Users\pardh\OneDrive\Desktop\3_Stage_MIPS\5_Stage_MIPS.xpr
+# Log file: C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/vivado.log
+# Journal file: C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/pardh/OneDrive/Desktop/5_Stage_MIPS' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 883.172 ; gain = 214.141
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2458] undeclared symbol is_imm, assumed default net type wire [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:127]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2458] undeclared symbol PC_out, assumed default net type wire [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v:80]
+INFO: [VRFC 10-2458] undeclared symbol forward_EN, assumed default net type wire [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v:147]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xelab -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'is_imm' on this module [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v:168]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 916.734 ; gain = 1.902
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xelab -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'is_imm' on this module [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v:168]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2458] undeclared symbol is_imm, assumed default net type wire [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:127]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2458] undeclared symbol PC_out, assumed default net type wire [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v:80]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 930.535 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xelab -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'hazard_detected_in' is not declared under prefix 'hazard_det' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:54]
+ERROR: [VRFC 10-2991] 'hazard_detected_in' is not declared under prefix 'hazard_det' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:73]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_out' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v:80]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 930.535 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2458] undeclared symbol is_imm, assumed default net type wire [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:127]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2458] undeclared symbol PC_out, assumed default net type wire [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v:80]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xelab -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'hazard_detected_in' is not declared under prefix 'hazard_det' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:54]
+ERROR: [VRFC 10-2991] 'hazard_detected_in' is not declared under prefix 'hazard_det' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:73]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'PC_out' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v:80]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 930.535 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2458] undeclared symbol is_imm, assumed default net type wire [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:127]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file 'defines.v' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:2]
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+ERROR: [VRFC 10-2865] module 'TopLevel_tb' ignored due to previous errors [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2458] undeclared symbol is_imm, assumed default net type wire [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:127]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file 'defines.v' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:2]
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+ERROR: [VRFC 10-2865] module 'TopLevel_tb' ignored due to previous errors [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file 'defines.v' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:2]
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+ERROR: [VRFC 10-2865] module 'TopLevel_tb' ignored due to previous errors [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+ERROR: [VRFC 10-3195] cannot open include file 'defines.v' [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:2]
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+ERROR: [VRFC 10-2865] module 'TopLevel_tb' ignored due to previous errors [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v:4]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xelab -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'PC' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:53]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'EXE_CMD' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:69]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'WB_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:73]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_R_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:74]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_W_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:75]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'reg1' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:91]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'writeDest' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:107]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'immediate' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:115]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'src2' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:129]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xelab -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'PC' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:56]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'EXE_CMD' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:71]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'WB_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:75]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_R_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:76]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_W_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:77]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'reg1' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:90]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'writeDest' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:107]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'immediate' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:115]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'src2' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:129]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1143.691 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xelab -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'PC' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:53]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'EXE_CMD' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:69]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'WB_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:73]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_R_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:74]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_W_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:75]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'reg1' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:91]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'writeDest' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:107]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'immediate' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:115]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'src2' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:129]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xelab -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'EXE_CMD' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:62]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'WB_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:66]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_R_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:67]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_W_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:68]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'reg1' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:81]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'writeDest' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:98]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'immediate' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:106]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'src2' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:120]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1161.430 ; gain = 0.004
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TopLevel_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TopLevel_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXE2MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXE2MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/EXEStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXEStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/ID2EXE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID_Pipeline_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFStage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/MEMStage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_WB_Stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/conditionChecker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conditionChecker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/dataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_EXE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/hazardDetection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/instructionMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-311] analyzing module mux_3input
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/regFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/signExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/topLevelCircuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TopLevel_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim'
+"xelab -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 14e9adad1acf4787b6518fa2c41a4e81 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TopLevel_tb_behav xil_defaultlib.TopLevel_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'EXE_CMD' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:62]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'WB_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:66]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_R_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:67]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'MEM_W_EN' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:68]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'reg1' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:81]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'writeDest' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:98]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'immediate' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:106]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'src2' is not permitted [C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.srcs/sources_1/new/IFStage.v:120]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/pardh/OneDrive/Desktop/3_Stage_MIPS/5_Stage_MIPS.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 12 21:26:05 2024...
