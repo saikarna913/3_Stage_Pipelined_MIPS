@@ -1,3 +1,4 @@
+# 3 stage pipelined MIPS processor
 Developed in the Computer Architecture course, this project implements a 3 stage pipelined MIPS processor featuring hazard detection and forwarding.   
 ![Untitled Diagram drawio (8)](https://github.com/user-attachments/assets/d351df12-bafd-40cb-b76a-7141539cec03)
 
