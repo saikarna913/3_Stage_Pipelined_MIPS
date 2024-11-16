@@ -1,6 +1,6 @@
 Developed in the Computer Architecture course, this project implements a 3 stage pipelined MIPS processor featuring hazard detection and forwarding.   
+![Untitled Diagram drawio (8)](https://github.com/user-attachments/assets/d351df12-bafd-40cb-b76a-7141539cec03)
 
-![Untitled Diagram.drawio (8).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/05f9d4c8-191e-4f8b-9f1c-68800c059e41/12c2b846-4334-4c87-b80e-d6ff02b308ca/Untitled_Diagram.drawio_(8).png)
 
 **Getting Started**
 
