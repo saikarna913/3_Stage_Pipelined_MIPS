@@ -31,7 +31,7 @@ There are Three pipeline stages:
 
 **Modular design**
 
-For the best understanding of the code check this repo:
+For the best understanding of the code check this repo: https://github.com/saikarna913/3_STAGE_PIPELINE_MIPS
 
 All modules are organized within the `modules` directory. The main description of the design is located in the `topLevelCircuit.v` file. This file outlines a modular processor design, integrating all three pipeline stages and two pipeline registers. The details of the pipeline stages and registers are provided in the `modules/pipeStages` and `modules/pipeRegisters` directories, respectively. Additionally, the `topLevelCircuit.v` file instantiates the register file, hazard detection unit, and forwarding unit. Each pipeline stage is constructed from and encapsulates various supporting modules.
 
